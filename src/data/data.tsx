@@ -13,7 +13,6 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -32,8 +31,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'shubh Resume ',
+  description: "This is my resume",
 };
 
 /**
@@ -90,7 +89,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  
   description: `Passionate about full-stack development, I work with ReactJS, React Native, Next.js, MongoDB, and PostgreSQL to build dynamic and efficient applications. Currently, I'm diving into Solidity and Ethereum development to expand my skills in blockchain technology.`,
   aboutItems: [
     {label: 'Location', text: 'Kanpur', Icon: MapIcon},
